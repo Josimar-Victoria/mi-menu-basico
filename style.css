@@ -1,0 +1,58 @@
+/*estilos de parrafos i ubicacion fdel txt*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: cornsilk;
+    font-family: 'Opem sans';
+}
+.wrap{
+    width: 800px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+/*menu de navegacion*/
+ul.tabs{
+    width: 100%;
+    background:black;
+    list-style: none;
+    display: flex;
+}
+ul.tabs li{
+    width: 20%;
+
+}
+/*color y mododificacion de mis menu*/
+ul.tabs li a{
+    color: white;
+     text-decoration: none;
+     font-size: 20px;
+     text-align: center;
+     display: block;
+     padding: 20px 0px;
+     
+}
+ul.tabs li a .tab-text{
+    margin-left: 8px;
+}
+/*color azul arriba del enu inicio*/
+.active{
+    background: cornflowerblue;
+}
+
+/*modificando el fondo te la pagina */
+.secciones{
+    width: 100%;
+    background: whitesmoke;
+}
+.secciones article{
+    padding: 30px;
+}
+.secciones article p{
+    text-align: justify;
+    
+}
